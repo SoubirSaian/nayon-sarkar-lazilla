@@ -13,6 +13,11 @@ import about_img from './about-1.png';
 import motherboard from './motherboard.png';
 import industrial from './industrial.png';
 import organization from './organization-chart.png';
+import blog1 from './blog-1.jpg';
+import blog2 from './blog-2.jpg';
+import blog3 from './blog-3.jpg';
+import user from './user.png';
+import calendar from './calendar.png';
 
 
 export const assets = {
@@ -30,5 +35,9 @@ export const assets = {
     motherboard,
     industrial,
     organization,
-    
+    blog1,
+    blog2,
+    blog3,
+    user,
+    calendar,
 }

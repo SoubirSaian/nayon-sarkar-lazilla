@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Blog from "@/components/Blog";
 import Client from "@/components/Client";
 import HeroSection from "@/components/HeroSection";
 import Service from "@/components/Service";
@@ -13,6 +14,7 @@ export default function Home() {
       <Client/>
       <About/>
       <Service/>
+      <Blog/>
     </>
   );
 }
