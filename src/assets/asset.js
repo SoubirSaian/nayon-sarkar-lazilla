@@ -16,8 +16,19 @@ import organization from './organization-chart.png';
 import blog1 from './blog-1.jpg';
 import blog2 from './blog-2.jpg';
 import blog3 from './blog-3.jpg';
+import blog7 from './blog-7.jpg';
+import blog8 from './blog-8.jpg';
 import user from './user.png';
 import calendar from './calendar.png';
+import logoFooter from './Logo-2-3.svg';
+import  instagram from './instagramIcon.svg';
+import  facebook from './facebookIcon.svg';
+import  linkedIn from './linkendinIcon.svg';
+import  twitter from './twitterIcon.svg';
+import clock from './clock.png';
+import telephone from './telephone.png';
+import gps from './gps.png';
+import email from './email.png';
 
 
 export const assets = {
@@ -38,6 +49,17 @@ export const assets = {
     blog1,
     blog2,
     blog3,
+    blog7,
+    blog8,
     user,
     calendar,
+    logoFooter,
+    instagram,
+    facebook,
+    linkedIn,
+    twitter,
+    clock,
+    telephone,
+    gps,
+    email,
 }

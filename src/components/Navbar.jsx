@@ -4,7 +4,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full h-[70px] px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
+    <nav className="fixed top-0 left-0 w-full h-[70px] bg-[#7300ff] px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
         
     <a href="#">
         <Image className="h-9" src={assets.Rezille_logo} alt="dummyLogoWhite"/>

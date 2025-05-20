@@ -8,10 +8,11 @@ const Blog = () => {
         <h6 className='text-center text-[22px] font-semibold text-[#1769fe] leading-[46px]'>News</h6>
         <h2 className='text-center text-[48px] font-medium leading-[57px]'>Our Latest News</h2>
 
-        <div className='mt-6 w-[95%] mx-auto'>
+        <div className='mt-6 w-[80%] mx-auto'>
             <div className='grid grid-cols-3 gap-4 '>
 
-                <div className='p-[30px] shadow-[0px_-0.5px_2px_1px_gray] rounded-[5px]'>
+                {/* style={{boxShadow: '0px 0px 33px rgba(0, 0, 0, 0.08)'}} */}
+                <div className='p-[30px] shadow-[0px_0px_33px_rgba(0,0,0,0.08)] rounded-[5px]'>
                     <div className='mb-4'>
                         <Image src={assets.blog1} alt='blog-img' className='w-[90%] ' />
                     </div>
@@ -34,7 +35,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                <div className='p-[30px] shadow-[0px_-0.5px_2px_1px_gray] rounded-[5px]'>
+                <div className='p-[30px] shadow-[0px_0px_33px_rgba(0,0,0,0.08)] rounded-[5px]'>
                     <div className='mb-4'>
                         <Image src={assets.blog2} alt='blog-img' className='w-[90%]' />
                     </div>
@@ -57,7 +58,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                <div className='p-[30px] shadow-[0px_-0.5px_2px_1px_gray] rounded-[5px]'>
+                <div className='p-[30px] shadow-[0px_0px_33px_rgba(0,0,0,0.08)] rounded-[5px]'>
                     <div className='mb-4'>
                         <Image src={assets.blog3} alt='blog-img' className='w-[90%]' />
                     </div>
