@@ -8,9 +8,9 @@ const HeroSection = () => {
 
       <div className='w-[80%] mx-auto pt-24'>
 
-        <div className='flex justify-center items-center gap-18'>
+        <div className='flex justify-center items-end'>
 
-          <div className=''>
+          <div className='px-12'>
             <h1 className='text-5xl font-bold'>Make your Saas and Awesome Design</h1>
             <p className='text-sm opacity-70 mt-6'>It is a long established fact  that a reader will be distracted by the readable content of a page when looking</p>
             <div className='flex gap-6 mt-6'>
@@ -19,11 +19,12 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=''>
-            <Image src={assets.dashboard_img} alt='hero-image' />
+          <div className='w-full flex items-end'>
+            <Image src={assets.dashboard_img} alt='hero-image' className='' />
           </div>
+
         </div>
-        </div>
+      </div>
 
 
     </div>

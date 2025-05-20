@@ -1,9 +1,11 @@
 import About from "@/components/About";
 import Blog from "@/components/Blog";
 import Client from "@/components/Client";
+import Counter from "@/components/Counter";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Service from "@/components/Service";
+import Testimonial from "@/components/Testimonial";
 // import Navbar from "@/components/Navbar";
 
 
@@ -14,7 +16,9 @@ export default function Home() {
       <HeroSection/>
       <Client/>
       <About/>
+      <Counter/>
       <Service/>
+      <Testimonial/>
       <Blog/>
       <Footer/>
     </>

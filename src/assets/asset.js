@@ -29,6 +29,14 @@ import clock from './clock.png';
 import telephone from './telephone.png';
 import gps from './gps.png';
 import email from './email.png';
+import admin from './admin.png';
+import developer from './developer.png';
+import consent from './consent.png';
+import sustainability from './sustainability.png';
+import starIcon from './starIconFilled.svg';
+import team2 from './team-update-2.jpg';
+import team5 from './team-update-5.jpg';
+import quote from './quote.png';
 
 
 export const assets = {
@@ -62,4 +70,12 @@ export const assets = {
     telephone,
     gps,
     email,
+    admin,
+    developer,
+    consent,
+    sustainability,
+    starIcon,
+    team2,
+    team5,
+    quote,
 }
