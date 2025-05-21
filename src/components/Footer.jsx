@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div style={{backgroundImage: 'url(/src/assets/footer-bg.png)'}} className='bg-[#0a0620] mt-8'>
+    <div style={{backgroundImage: 'url(/src/assets/footer-bg.png)'}} className='bg-[#0a0620]'>
         <div  className='w-[80%] mx-auto pt-[80px]'>
 
             <div className='grid grid-cols-4 gap-x-12'>

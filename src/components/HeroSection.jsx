@@ -8,18 +8,18 @@ const HeroSection = () => {
 
       <div className='w-[80%] mx-auto pt-24'>
 
-        <div className='flex justify-center items-end'>
+        <div className='flex items-center justify-between'>
 
-          <div className='px-12'>
+          <div className='w-1/2'>
             <h1 className='text-5xl font-bold'>Make your Saas and Awesome Design</h1>
             <p className='text-sm opacity-70 mt-6'>It is a long established fact  that a reader will be distracted by the readable content of a page when looking</p>
             <div className='flex gap-6 mt-6'>
-                <button className="bg-white text-gray-700  text-sm hover:bg-black hover:text-white active:scale-95 transition-all w-40 h-11 rounded-full">Contact us</button>
-                <button className="bg-black text-white text-sm hover:bg-white hover:text-black active:scale-95 transition-all w-40 h-11 rounded-full">Get started</button>
+                <button className="bg-white text-gray-700  text-sm hover:bg-black hover:text-white active:scale-95 transition-all duration-400 w-40 h-11 rounded-full">Contact us</button>
+                <button className="bg-black text-white text-sm hover:bg-white hover:text-black active:scale-95 transition-all duration-400 w-40 h-11 rounded-full">Get started</button>
             </div>
           </div>
 
-          <div className='w-full flex items-end'>
+          <div className=''>
             <Image src={assets.dashboard_img} alt='hero-image' className='' />
           </div>
 

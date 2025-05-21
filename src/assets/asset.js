@@ -37,6 +37,8 @@ import starIcon from './starIconFilled.svg';
 import team2 from './team-update-2.jpg';
 import team5 from './team-update-5.jpg';
 import quote from './quote.png';
+import newsLetter from './newsletter-ng.png';
+import shape from './Shape.png';
 
 
 export const assets = {
@@ -78,4 +80,6 @@ export const assets = {
     team2,
     team5,
     quote,
+    newsLetter,
+    shape,
 }
