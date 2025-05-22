@@ -1,5 +1,6 @@
 import { assets } from '@/assets/asset';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -11,10 +12,10 @@ const Navbar = () => {
     </a>
 
     <ul className="text-white md:flex hidden items-center gap-10">
-        <li><a className="hover:text-white/70 transition" href="#">Home</a></li>
+        <li><Link className="hover:text-white/70 transition" href="/">Home</Link></li>
         <li><a className="hover:text-white/70 transition" href="#">About Us</a></li>
         <li><a className="hover:text-white/70 transition" href="#">Service</a></li>
-        <li><a className="hover:text-white/70 transition" href="#">Pages</a></li>
+        <li><Link className="hover:text-white/70 transition" href="/pricing">Pricing</Link></li>
         <li><a className="hover:text-white/70 transition" href="#">Blog</a></li>
         <li><a className="hover:text-white/70 transition" href="#">Contact us</a></li>
     </ul>
