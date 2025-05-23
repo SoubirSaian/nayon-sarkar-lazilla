@@ -4,7 +4,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className=' text-white bg-[url("/new-bg.jpg")] bg-no-repeat bg-center bg-cover h-auto md:h-screen'>
+    <div className=' text-white bg-[url("/BG-blue.png")] bg-no-repeat bg-center bg-cover h-auto md:h-screen'>
 
       <div className='container mx-auto pt-24'>
 
