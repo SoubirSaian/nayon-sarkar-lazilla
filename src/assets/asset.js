@@ -39,6 +39,7 @@ import team5 from './team-update-5.jpg';
 import quote from './quote.png';
 import newsLetter from './newsletter-ng.png';
 import shape from './Shape.png';
+import HeroImg from './hero_imag.png';
 
 
 export const assets = {
@@ -82,4 +83,5 @@ export const assets = {
     quote,
     newsLetter,
     shape,
+    HeroImg
 }

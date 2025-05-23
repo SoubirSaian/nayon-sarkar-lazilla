@@ -11,7 +11,7 @@ const Navbar = () => {
         <Image className="h-9" src={assets.Rezille_logo} alt="dummyLogoWhite"/>
     </Link>
 
-    <ul className="text-white font-medium md:flex hidden items-center gap-10 uppercase">
+    <ul className="text-white font-medium md:flex hidden items-center gap-10">
         <li><Link className="hover:text-white/70 transition" href="/">Home</Link></li>
         <li><a className="hover:text-white/70 transition" href="#">About Us</a></li>
         <li><a className="hover:text-white/70 transition" href="#">Service</a></li>

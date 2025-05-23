@@ -20,7 +20,7 @@ const HeroSection = () => {
           </div>
 
           <div className=''>
-            <Image src={assets.dashboard_img} alt='hero-image' className='' />
+            <Image src={assets.HeroImg} alt='hero-image' className='' />
           </div>
 
         </div>
