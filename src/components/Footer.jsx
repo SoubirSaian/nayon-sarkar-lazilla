@@ -7,16 +7,16 @@ const Footer = () => {
     <div style={{backgroundImage: 'url(/src/assets/footer-bg.png)'}} className='bg-[#0a0620]'>
         <div  className='w-[80%] mx-auto pt-[80px]'>
 
-            <div className='grid grid-cols-4 gap-x-12'>
+            <div className='grid grid-cols-1 md:grid-cols-4 place-items-center sm:gap-y-4 md:gap-x-12'>
 
-                <div>
-                    <div className='mb-10'>
-                        <Image src={assets.logoFooter} alt='logo-footer'/>
+                <div className=''>
+                    <div className='w-full mx-auto mb-10 text-center'>
+                        <Image src={assets.logoFooter} alt='logo-footer' className='inline-block'/>
                     </div>
 
-                    <p className='text-white mb-6'>There are many variatons of passages of available but the majorit have a form by injected humor or randomseds say. It high at my mind by roof.</p>
+                    <p className='text-white text-center md:text-left mb-6'>There are many variatons of passages of available but the majorit have a form by injected humor or randomseds say. It high at my mind by roof.</p>
 
-                    <ul className='flex items-center justify-start gap-3'>
+                    <ul className='flex items-center justify-center md:justify-start gap-3'>
                         <li className='border border-gray-300 rounded-full cursor-pointer'> <Image src={assets.facebook} alt='facebook' className='m-2' /> </li>
                         <li className='border border-gray-300 rounded-full cursor-pointer'> <Image src={assets.instagram} alt='instagram' className='m-2' /> </li>
                         <li className='border border-gray-300 rounded-full cursor-pointer'> <Image src={assets.twitter} alt='twitter' className='m-2' /> </li>
@@ -24,8 +24,8 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className='mr-6'>
-                    <h4 className='text-[28px] text-white mb-[40px]'>Quick Links</h4>
+                <div className='md:mr-6'>
+                    <h4 className='text-[28px] text-white mb-6 md:mb-[40px]'>Quick Links</h4>
 
                     <ul className='list-disc'>
                         <li className='text-white text-[16px] my-2 hover:text-[#1769fe]'> Explore Products</li>
@@ -36,18 +36,18 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div>
-                    <h4 className='text-[28px] text-white mb-[40px]'>Recent Post</h4>
+                <div >
+                    <h4 className='text-[28px] text-white mb-6 md:mb-[40px]'>Recent Post</h4>
 
                     <ul className='flex flex-col gap-3'>
-                        <li className='flex justify-center'>
+                        <li className='flex flex-col md:flex-row justify-center'>
                             <Image src={assets.blog7} alt='blog-img' className='w-[90px] h-[90px] rounded-[5px] mr-[20px]' />
                             <div>
                                 <h6 className='text-lg text-white leading-[28px] hover:text-[#1769fe]'>Business people working together for..</h6>
                                 <span className='italic text-sm text-white mt-3'>August 30,2022</span>
                             </div>
                         </li>
-                        <li className='flex justify-center'>
+                        <li className='flex flex-col md:flex-row justify-center'>
                             <Image src={assets.blog8} alt='blog-img' className='w-[90px] h-[90px] rounded-[5px] mr-[20px]' />
                             <div>
                                 <h6 className='text-lg text-white leading-[28px] hover:text-[#1769fe]'>Technology connections as online park..</h6>
@@ -86,7 +86,7 @@ const Footer = () => {
 
             <hr className='mt-24 text-gray-800 h-[0.1px]' />
 
-            <div className='mt-4 pb-6 flex items-center justify-between'>
+            <div className='mt-4 pb-6 flex flex-col md:flex-row items-center justify-between'>
                 <div>
                     <p className='text-white text-lg'>© Copyright 2023 rezilla All Rights Reserved</p>
                 </div>

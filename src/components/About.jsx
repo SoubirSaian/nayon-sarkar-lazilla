@@ -4,12 +4,13 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='w-[80%] mx-auto mt-8 flex items-center justify-center'>
-      <div className='w-1/2'>
+    <div className='w-[80%] mx-auto mt-8 flex flex-col md:flex-row items-center justify-center'>
+
+      <div className='w-full md:w-1/2'>
         <Image src={assets.about_img} alt='about-img' className='' />
       </div>
 
-      <div className='w-1/2 p-8'>
+      <div className='w-full md:w-1/2 md:p-8'>
         <h6 className='text-[#1769fe] text-[22px] font-bold'>Progress & Customization</h6>
         <h2 className='text-[40px] font-[600]  mt-4 pr-10'>Discover & growth  with Analysis</h2>
         <p className='text-[#645e80] mt-4 pr-30'>There are many variations of passages of Lorem an Ipsum available as the majority have suffered alteration in some of our forms the injected humor randomized words which don't look.</p>

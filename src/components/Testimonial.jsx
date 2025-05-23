@@ -9,7 +9,7 @@ const Textimonial = () => {
         <h6 className='text-center text-[22px] font-semibold text-[#1769fe] leading-[46px]'>Testimonials</h6>
         <h2 className='text-center text-[48px] font-medium leading-[57px] mb-6'>Our Client Says</h2>
 
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-1 gap-y-3 md:grid-cols-2'>
 
           {/* testimonial 1 */}
           <div className='flex items-center justify-center p-[30px] shadow-[0px_0px_16px_0px_rgba(0,0,0,0.08)]'>
@@ -37,6 +37,7 @@ const Textimonial = () => {
             </div>
 
           </div>
+
           {/* testimonial 2 */}
           <div className='flex items-center justify-center p-[30px] shadow-[0px_0px_16px_0px_rgba(0,0,0,0.08)]'>
             <div className='mr-4 rounded-[5px]'>

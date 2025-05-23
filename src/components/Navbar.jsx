@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full h-[70px] bg-[#7300ff] px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
         
-    <a href="#">
+    <Link href="/">
         <Image className="h-9" src={assets.Rezille_logo} alt="dummyLogoWhite"/>
-    </a>
+    </Link>
 
     <ul className="text-white md:flex hidden items-center gap-10">
         <li><Link className="hover:text-white/70 transition" href="/">Home</Link></li>
