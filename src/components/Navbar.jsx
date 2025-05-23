@@ -5,7 +5,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full h-[70px] bg-[#7300ff] px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
+    <nav className="fixed top-0 left-0 w-full h-[70px] bg-[#00001a] px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 transition-all">
         
     <Link href="/">
         <Image className="h-9" src={assets.Rezille_logo} alt="dummyLogoWhite"/>
@@ -21,11 +21,14 @@ const Navbar = () => {
     </ul>
 
     <div className="hidden md:flex items-center gap-8">
-        <div className="flex items-center justify-center bg-black hover:opacity-90 active:scale-95 transition-all w-11 h-11 rounded-full cursor-pointer">
+        {/* <div className="flex items-center justify-center bg-black hover:opacity-90 active:scale-95 transition-all w-11 h-11 rounded-full cursor-pointer">
 
             <Image src={assets.searchIcon} alt='search-icon text-black' className="h-8" />
-        </div>
+        </div> */}
 
+        <button type="button" className="bg-[#000060] text-white md:inline hidden text-sm hover:opacity-90 active:scale-95 border border-gray-300 transition-all w-40 h-11 rounded-full">
+            Signup
+        </button>
         <button type="button" className="bg-white text-gray-700 md:inline hidden text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full">
             Login
         </button>

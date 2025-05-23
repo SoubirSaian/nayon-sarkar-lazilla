@@ -4,13 +4,13 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div style={{backgroundImage: 'url(/src/assets/footer-bg.png)'}} className='bg-[#0a0620]'>
-        <div  className='w-[80%] mx-auto pt-[80px]'>
+    <div style={{backgroundImage: 'url(/src/assets/footer-bg.png)'}} className='bg-[#00001a]'>
+        <div  className='container mx-auto pt-[80px]'>
 
-            <div className='grid grid-cols-1 md:grid-cols-4 place-items-center sm:gap-y-4 md:gap-x-12'>
+            <div className='grid grid-cols-1 md:grid-cols-4 place-items-start sm:gap-y-4 md:gap-x-12'>
 
                 <div className=''>
-                    <div className='w-full mx-auto mb-10 text-center'>
+                    <div className='mb-10'>
                         <Image src={assets.logoFooter} alt='logo-footer' className='inline-block'/>
                     </div>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className='md:mr-6'>
+                <div className=''>
                     <h4 className='text-[28px] text-white mb-6 md:mb-[40px]'>Quick Links</h4>
 
                     <ul className='list-disc'>
