@@ -4,13 +4,13 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className=' text-white bg-[url("/BG-blue.png")] bg-no-repeat bg-center bg-cover py-16'>
+    <div className=' text-white bg-[url("/BG-blue.png")] bg-no-repeat bg-center bg-cover py-16 mb-[50px]'>
 
-      <div className='container mx-auto pt-24'>
+      <div className=' pt-24'>
 
         <div className='grid grid-cols-1 md:grid-cols-2 place-items-center'>
 
-          <div className='max-w-[90%] '>
+          <div className='max-w-[90%] mr-auto'>
             <h1 className='text-5xl font-bold'>Make your Saas and Awesome Design</h1>
             <p className='text-sm opacity-70 mt-6'>It is a long established fact  that a reader will be distracted by the readable content of a page when looking</p>
             <div className='flex gap-6 mt-6'>

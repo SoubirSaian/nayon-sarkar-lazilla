@@ -4,11 +4,11 @@ import React from 'react';
 
 const Blog = () => {
   return (
-    <div className='my-6'>
+    <div className='my-[50px]'>
         <h6 className='text-center text-[22px] font-semibold text-[#1769fe] leading-[46px]'>News</h6>
         <h2 className='text-center text-[48px] font-medium leading-[57px]'>Our Latest News</h2>
 
-        <div className='mt-6 w-[80%] mx-auto'>
+        <div className='mt-6 container mx-auto'>
             <div className='grid grid-cols-3 gap-4 '>
 
                 {/* style={{boxShadow: '0px 0px 33px rgba(0, 0, 0, 0.08)'}} */}

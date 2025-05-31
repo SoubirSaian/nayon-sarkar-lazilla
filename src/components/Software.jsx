@@ -4,9 +4,9 @@ import React from 'react';
 
 const Software = () => {
   return (
-    <div className='bg-[url("/Shape.png")] bg-no-repeat bg-cover bg-center'>
+    <div className='bg-[linear-gradient(259deg,rgba(0,0,54,1)_0%,rgba(0,0,95,1)_37%,rgba(0,0,54,1)_62%,rgba(0,0,95,1)_91%)] bg-no-repeat bg-cover bg-center my-[50px]'>
 
-        <div className='w-[80%] mx-auto pb-[50px]'>
+        <div className='container mx-auto pb-[50px]'>
 
             <div className='flex items-center justify-between text-white'>
 

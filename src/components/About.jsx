@@ -4,7 +4,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='w-[80%] mx-auto mt-8 flex flex-col md:flex-row items-center justify-center'>
+    <div className='container mx-auto my-[50px] flex flex-col md:flex-row items-center justify-center'>
 
       <div className='w-full md:w-1/2'>
         <Image src={assets.about_img} alt='about-img' className='' />

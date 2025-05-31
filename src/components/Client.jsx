@@ -4,7 +4,7 @@ import React from 'react';
 
 const Client = () => {
   return (
-    <div className='my-8'>
+    <div className='my-[50px]'>
 
         <div className='flex items-center justify-center gap-8'>
             <Image src={assets.client_1} alt='client-img' />

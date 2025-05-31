@@ -56,8 +56,8 @@ const Counter = () => {
     },[]);
 
   return (
-    <div className='bg-[linear-gradient(259deg,rgba(0,0,54,1)_0%,rgba(0,0,95,1)_37%,rgba(0,0,54,1)_62%,rgba(0,0,95,1)_91%)] bg-cover bg-no-repeat bg-center' >
-      <div className='w-[80%] mx-auto text-white'>
+    <div className='bg-[linear-gradient(90deg,rgba(0,0,54,1)_0%,rgba(0,0,95,1)_46%,rgba(0,0,54,1)_84%)] bg-cover bg-no-repeat bg-center my-[50px]' >
+      <div className='container mx-auto text-white'>
 
          <div className='grid grid-cols-4 gap-8 py-20'>
 
