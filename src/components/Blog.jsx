@@ -4,7 +4,7 @@ import React from 'react';
 
 const Blog = () => {
   return (
-    <div className='my-[50px]'>
+    <div className='py-[50px]'>
         <h6 className='text-center text-[22px] font-semibold text-[#1769fe] leading-[46px]'>News</h6>
         <h2 className='text-center text-[48px] font-medium leading-[57px]'>Our Latest News</h2>
 

@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className=' text-white bg-[url("/BG-blue.png")] bg-no-repeat bg-center bg-cover py-16 mb-[50px]'>
 
-      <div className='container mx-auto pt-24'>
+      <div className='container mx-auto'>
 
         <div className='grid grid-cols-1 md:grid-cols-2 place-items-center'>
 

@@ -4,7 +4,7 @@ const NewsLetter = () => {
   return (
 
     <div className='bg-gradient-to-r from-blue-500 to-blue-700 mt-[50px] text-center'>
-        <div className=' container mx-auto p-12'>
+        <div className=' container mx-auto px-12 py-24'>
             <h2 className='text-3xl font-bold text-white mb-4'>Ready to get started</h2>
             <p className='text-xl text-white/90 mb-8 max-w-2xl mx-auto'>Join thousands of satisfied customers who are already using our platform.</p>
 

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='sticky top-0 bg-[#00001a]' >
 
-        <nav className="container mx-auto h-[70px] flex items-center justify-between z-30 transition-all">
+        <nav className="container mx-auto h-[70px] flex items-center justify-between transition-all">
         
             <Link href="/">
                 <Image className="h-9" src={assets.Rezille_logo} alt="dummyLogoWhite"/>

@@ -4,7 +4,7 @@ import React from 'react';
 
 const Service = () => {
   return (
-    <div className=' container mx-auto my-[50px]'>
+    <div className=' container mx-auto  py-[50px]'>
 
       <h6 className='text-center text-[22px] font-semibold text-[#1769fe] leading-[46px]'> Services</h6>
       <h2 className='text-center text-[48px] font-medium leading-[57px]'>Our Exclusive Services</h2>

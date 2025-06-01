@@ -4,7 +4,7 @@ import React from 'react';
 
 const Textimonial = () => {
   return (
-    <div className='container mx-auto my-[50px]'>
+    <div className='container mx-auto py-[50px]'>
 
         <h6 className='text-center text-[22px] font-semibold text-[#1769fe] leading-[46px]'>Testimonials</h6>
         <h2 className='text-center text-[48px] font-medium leading-[57px] mb-6'>Our Client Says</h2>
